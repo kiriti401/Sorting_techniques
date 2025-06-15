@@ -1,3 +1,7 @@
+//this is a technique to sort the set of data here it is an array
+// the input:[5,4,3,2,1];
+// the output will be [1,2,3,4,5]
+
 import java.util.Arrays;
 
 public class Bubblesort {
