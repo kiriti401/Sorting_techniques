@@ -7,12 +7,13 @@ Explanation:
 In the first iteration, we find the maximum (5) and place it at index 4.
 Second iteration, max of remaining [4, 3, 2, 1] is 4, place it at index 3.
 Continue until the array is sorted.
+output=[1,2,3,4,5]
 space complexity=O(1)
 Time complexity=O(n^2)
 */
 public class Selectionsort {
     public static void main(String[] args) {
-        int [] arr={5,4,3,2,3,2,1};
+        int [] arr={5,4,3,2,1};
         System.out.println(Arrays.toString(select(arr)));
     }
     static int[] select(int [] arr){
