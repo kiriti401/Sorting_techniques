@@ -7,6 +7,8 @@ Explanation:
 In the first iteration, we find the maximum (5) and place it at index 4.
 Second iteration, max of remaining [4, 3, 2, 1] is 4, place it at index 3.
 Continue until the array is sorted.
+space complexity=O(1)
+Time complexity=O(n^2)
 */
 public class Selectionsort {
     public static void main(String[] args) {
